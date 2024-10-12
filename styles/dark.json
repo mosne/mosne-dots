@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Dosts dark",
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--black)",
+			"text": "var(--wp--preset--color--white)"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--light)"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "40em",
+			"wideSize": "1400px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW32RmYJpso5.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"DM Sans\", sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans"
+				}
+			]
+		},
+		"custom": {
+                "cursor":{
+                    "background-color" : "#000",
+                    "background-color-active": "#fff"
+                },
+                "body" :{   
+                    "background-color": "#fff"
+                }
+            },
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--light)"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"title": "Dosts",
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}
