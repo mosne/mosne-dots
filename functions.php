@@ -6,3 +6,35 @@ function add_style_and_script() {
     wp_enqueue_script('mosne-dots-scripts', get_template_directory_uri() . '/build/index.js', array(), $theme_version, true);
 }
 add_action('wp_enqueue_scripts', 'add_style_and_script');
+
+if ( function_exists( 'register_block_style' ) ) {
+    register_block_style(
+        'core/spacer',
+        array(
+            'name'         => 'big-dot',
+            'label'        => __( 'Big Dot', 'mosne-dot' ),
+            'is_default'   => false,
+            'inline_style' => '.wp-block-spacer.is-style-big-dot { 
+                position: relative;
+                // make it the spacer always squared
+                width: 100%;
+                height: 100%;
+                aspect-ratio: 1 / 1;
+                }
+                .wp-block-spacer.is-style-big-dot:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                    width: auto;
+                    height: 100%;
+                    aspect-ratio: 1 / 1;
+                    background-color: currentColor;
+                    border-radius: 100%;
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+                }
+            }',
+        )
+    );
+}

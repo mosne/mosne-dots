@@ -1,6 +1,7 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
 		"layout": {
 			"contentSize": "40em",
 			"wideSize": "1400px"
@@ -103,8 +104,8 @@
                 "body" :{   
                     "background-color": "#fff"
                 }
-            },
-		"useRootPaddingAwareAlignments": true
+
+		}
 	},
 	"styles": {
 		"elements": {
