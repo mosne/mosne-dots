@@ -1,0 +1,11 @@
+{
+	"styles": {			
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--noto-serif)"
+		}
+	},
+	"version": 3,
+	"title": "Noto Serif",
+	"slug": "typography-noto-serif",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

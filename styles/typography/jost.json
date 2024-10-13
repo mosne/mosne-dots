@@ -1,0 +1,11 @@
+{
+	"styles": {			
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--jost)"
+		}
+	},
+	"version": 3,
+	"title": "Jost",
+	"slug": "typography-jost",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

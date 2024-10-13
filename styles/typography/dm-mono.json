@@ -1,0 +1,11 @@
+{
+	"styles": {			
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-mono)"
+		}
+	},
+	"version": 3,
+	"title": "DM Mono",
+	"slug": "typography-dm-mono",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

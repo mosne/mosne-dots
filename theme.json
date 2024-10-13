@@ -1,15 +1,6 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"custom": {
-			"body": {
-				"background-color": "#fff"
-			},
-			"cursor": {
-				"background-color": "#000",
-				"background-color-active": "#fff"
-			}
-		},
 		"color": {
 			"palette": [
 				{
@@ -38,6 +29,15 @@
 					"slug": "tertiary"
 				}
 			]
+		},
+		"custom": {
+			"body": {
+				"background-color": "#fff"
+			},
+			"cursor": {
+				"background-color": "#000",
+				"background-color-active": "#fff"
+			}
 		},
 		"layout": {
 			"contentSize": "650px",
@@ -96,35 +96,104 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "\"DM Sans\"",
+							"fontFamily": "\"DM Mono\"",
 							"fontStyle": "normal",
-							"fontWeight": "300",
+							"fontWeight": "500",
 							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhS2f3ZGMZpg.woff2"
+								"file:./assets/fonts/dm-mono/dm-mono-500-normal.woff2"
 							]
 						},
+						{
+							"fontFamily": "\"DM Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-mono/dm-mono-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-mono/dm-mono-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"DM Mono\", monospace",
+					"name": "DM Mono",
+					"slug": "dm-mono"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto-serif/noto-serif-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto-serif/noto-serif-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto-serif/noto-serif-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif\", serif",
+					"name": "Noto Serif",
+					"slug": "noto-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/jost/jost-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/jost/jost-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/jost/jost-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Jost, sans-serif",
+					"name": "Jost",
+					"slug": "jost"
+				},
+				{
+					"fontFace": [
 						{
 							"fontFamily": "\"DM Sans\"",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"DM Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhS2f3ZGMZpg.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"DM Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthS2f3ZGMZpg.woff2"
+								"file:./assets/fonts/dm-sans/dm-sans-400-normal.woff2"
 							]
 						},
 						{
@@ -132,23 +201,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthS2f3ZGMZpg.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"DM Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thS2f3ZGMZpg.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"DM Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthS2f3ZGMZpg.woff2"
+								"file:./assets/fonts/dm-sans/dm-sans-700-normal.woff2"
 							]
 						},
 						{
@@ -156,7 +209,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW32RmYJpso5.woff2"
+								"file:./assets/fonts/dm-sans/dm-sans-400-italic.woff2"
 							]
 						}
 					],
