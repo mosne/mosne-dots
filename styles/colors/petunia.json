@@ -1,0 +1,46 @@
+{
+	"settings": {
+		"custom": {
+			"body": {
+				"background-color": "#380956"
+			},
+			"cursor": {
+				"background-color": "#F68A2D",
+				"background-color-active": "#ffffff"
+			}
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#380956",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#F68A2D",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#000000",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#4C43F2",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"version": 3,
+	"title": "Petunia",
+	"slug": "color-petunia",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}
