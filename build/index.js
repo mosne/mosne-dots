@@ -188,7 +188,7 @@ class Cursor {
 // ----
 Cursor.defaults = {
   cursor: '<div class="custom-cursor"><div class="cursor"></div></div>',
-  triggers: 'a, button',
+  triggers: 'a, button, input[type="submit"], input[type="button"], input[type="reset"',
   activeClass: 'custom-cursor-active'
 };
 
