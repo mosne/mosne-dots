@@ -87,6 +87,7 @@
 			]
 		},
 		"typography": {
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
@@ -217,12 +218,52 @@
 					"name": "DM Sans",
 					"slug": "dm-sans"
 				}
-			]
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.65rem",
+						"min": "1.39rem"
+					},
+					"name": "Large",
+					"size": "1.65rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "1.85rem"
+					},
+					"name": "Extra Large",
+					"size": "2.5rem",
+					"slug": "x-large"
+				}
+			],
+			"writingMode": true
 		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
+			"core/button": {
+				"elements": {
+					"link": {
+						"css": "&[target=\"_blank\"]::after { content: \"\\2197\"; margin-left: 0.25rem; }"
+					}
+				}
+			},
 			"core/comment-author-name": {
 				"elements": {
 					"link": {
@@ -332,6 +373,7 @@
 								"textDecoration": "underline"
 							}
 						},
+						"css": "&[target=\"_blank\"]::after { content: \"\\2197\"; margin-left: 0.25rem; }",
 						"typography": {
 							"textDecoration": "none"
 						}
@@ -494,7 +536,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__inside-wrapper { border: 2px solid var(--wp--preset--color--contrast); border-radius: 100px;}& .wp-block-search__input { background-color: transparent; color: var(--wp--preset--color--contrast);}& .wp-block-search__input::-moz-placeholder {color: var(--wp--preset--color--contrast);}& .wp-block-search__input::placeholder { color: var(--wp--preset--color--contrast);}& .wp-block-search__button { border-radius: 100px;}"
+				"css": "& .wp-block-search__inside-wrapper { border: 2px solid var(--wp--preset--color--contrast); border-radius: 100px; padding:.25em;}& .wp-block-search__input { background-color: transparent; color: var(--wp--preset--color--contrast); border: none;}& .wp-block-search__input::-moz-placeholder {color: var(--wp--preset--color--contrast);}& .wp-block-search__input::placeholder { color: var(--wp--preset--color--contrast);}& .wp-block-search__button { border-radius: 100px;}"
 			},
 			"core/separator": {
 				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: 100px}"
@@ -558,7 +600,7 @@
 				},
 				":visited": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				"border": {
@@ -571,38 +613,33 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "3.625rem",
-					"lineHeight": "1.2"
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"lineHeight": "1.15"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)",
-					"lineHeight": "1.2"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem)"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "400",
-					"textTransform": "uppercase"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontWeight": "400",
-					"textTransform": "uppercase"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"heading": {
@@ -613,16 +650,13 @@
 			},
 			"link": {
 				":active": {
-					"color": {
-						"text": "var(--wp--preset--color--secondary)"
-					},
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
 				":focus": {
 					"typography": {
-						"textDecoration": "underline dashed"
+						"textDecoration": "underline dotted"
 					}
 				},
 				":hover": {
@@ -631,8 +665,9 @@
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "currentColor"
 				},
+				"css": "&[target=\"_blank\"]::after { content: \"\\2197\"; margin-left: 0.25rem; }",
 				"typography": {
 					"textDecoration": "underline"
 				}
