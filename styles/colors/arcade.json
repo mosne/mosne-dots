@@ -1,0 +1,46 @@
+{
+	"settings": {
+		"custom": {
+			"body": {
+				"background-color": "#000000"
+			},
+			"cursor": {
+				"background-color": "#00EF78",
+				"background-color-active": "#00EF78"
+			}
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#00EF78",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#F68A2D",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#380956",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#4C43F2",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"version": 3,
+	"title": "Arcade",
+	"slug": "color-arcade",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

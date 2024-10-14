@@ -1,0 +1,46 @@
+{
+	"settings": {
+		"custom": {
+			"body": {
+				"background-color": "#4C43F2"
+			},
+			"cursor": {
+				"background-color": "#fffffff",
+				"background-color-active": "#4C43F2"
+			}
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#4C43F2",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#000000",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#F68A2D",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"version": 3,
+	"title": "Blue reverse",
+	"slug": "color-blue-reverse",
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

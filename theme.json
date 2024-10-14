@@ -355,6 +355,10 @@
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
+
+			"core/post-comments-form": {
+				"css": "& .comment-form textarea{color:var(--wp--preset--color--contrast);border: 2px solid var(--wp--preset--color--contrast); background: transparent;}"
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {
