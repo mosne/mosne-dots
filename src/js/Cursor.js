@@ -34,7 +34,7 @@ class Cursor {
   initialize() {
     const { cursor } = this._settings
 
-    if (!this._isInitialized) {
+    if (!this._isInitialized && matchMedia('(pointer:fine)').matches) {
       this._cursor = parseHtml(cursor)
       this._raf = null
       this._isInitialized = true
