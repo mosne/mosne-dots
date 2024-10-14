@@ -83,31 +83,14 @@ class Cursor {
     }
 
     /**
-     * Calculates the delta values based on the cursor position and updates the CSS variables for eye-x and eye-y accordingly.
-     * @param {number} cx - The x-coordinate of the cursor position.
-     * @param {number} cy - The y-coordinate of the cursor position.
-     */
-    function delta(cx, cy) {
-      const ex = window.innerWidth / 2
-      const ey = window.innerHeight / 2
-      const dy = ey - cy
-      const dx = ex - cx
-      const deltax = (dx / 20) * -1
-      const deltay = (dy / 20) * -1
-      document.body.style.setProperty('--eye-x', deltax + 'px')
-      document.body.style.setProperty('--eye-y', deltay + 'px')
-    }
-
-    /**
      * Animates the cursor and updates its position on the screen.
      */
     function loop() {
       animate()
       let x = self._mouse.x + (lastX - self._mouse.x) * 0.8
       let y = self._mouse.y + (lastY - self._mouse.y) * 0.8
-      delta(self._mouse.x, self._mouse.y)
-      document.body.style.setProperty('--cursor-x', x + 'px')
-      document.body.style.setProperty('--cursor-y', y + 'px')
+      self._cursor.style.setProperty('--cursor-x', x + 'px')
+      self._cursor.style.setProperty('--cursor-y', y + 'px')
       lastX = x
       lastY = y
     }

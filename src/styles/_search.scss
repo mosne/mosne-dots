@@ -1,0 +1,17 @@
+.wp-block-search {
+    &__inside-wrapper {
+        border: 2px solid var(--wp--preset--color--contrast);
+        border-radius: 100px;
+    }
+    &__input {
+        background-color: transparent;
+        color: var(--wp--preset--color--contrast);
+        // placeholder
+        &::placeholder {
+            color: var(--wp--preset--color--contrast);
+        }
+    }
+    &__button {
+        border-radius: 100px;
+    }
+}

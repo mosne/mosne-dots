@@ -493,6 +493,9 @@
 					}
 				}
 			},
+			"core/search": {
+				"css": "& .wp-block-search__inside-wrapper { border: 2px solid var(--wp--preset--color--contrast); border-radius: 100px;}& .wp-block-search__input { background-color: transparent; color: var(--wp--preset--color--contrast);}& .wp-block-search__input::-moz-placeholder {color: var(--wp--preset--color--contrast);}& .wp-block-search__input::placeholder { color: var(--wp--preset--color--contrast);}& .wp-block-search__button { border-radius: 100px;}"
+			},
 			"core/separator": {
 				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: 100px}"
 			},
@@ -562,8 +565,8 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--contrast)"
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--base)"
 				}
 			},
 			"h1": {
