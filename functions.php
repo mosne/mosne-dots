@@ -7,12 +7,13 @@ function add_style_and_script() {
 }
 add_action('wp_enqueue_scripts', 'add_style_and_script');
 
+// Add big dots as block style for the spacer block
 if ( function_exists( 'register_block_style' ) ) {
     register_block_style(
         'core/spacer',
         array(
             'name'         => 'big-dot',
-            'label'        => __( 'Big Dot', 'mosne-dot' ),
+            'label'        => __( 'Big Dot', 'mosne-dots' ),
             'is_default'   => false,
             'inline_style' => '.wp-block-spacer.is-style-big-dot { 
                 position: relative;
@@ -38,3 +39,9 @@ if ( function_exists( 'register_block_style' ) ) {
         )
     );
 }
+
+// Add a new category for the block patterns
+register_block_pattern_category(
+	'mosne-dots',
+	array( 'label' => __( 'Mosne Dots', 'mosne-dots' ) )
+);
