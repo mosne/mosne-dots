@@ -5,7 +5,7 @@
 				"background-color": "#4C43F2"
 			},
 			"cursor": {
-				"background-color": "#fffffff",
+				"background-color": "#fff",
 				"background-color-active": "#4C43F2"
 			}
 		},
@@ -17,7 +17,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#000",
+					"color": "#fff",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
