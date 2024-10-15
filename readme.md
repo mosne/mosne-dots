@@ -1,3 +1,5 @@
+![screenshot](screenshot.png)
+
 # Mosne Dots
 
 **Contributors:** mosne  
@@ -5,12 +7,21 @@
 **Tested up to:** 6.7-beta3  
 **Requires PHP:** 5.7  
 **License:** GPLv2 or later  
-**License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
+**License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)   
 
 ## Description
 
 **Block Theme:** minimal and typographical. It's light and fast with a nice cursor animation.  
-**Demo site:** [https://dots.mosne.it/](https://dots.mosne.it/)
+
+**Demo site:**  
+[https://dots.mosne.it/](https://dots.mosne.it/)  
+
+**WordPress Theme directory:**  
+coming soon  
+
+**WordPress Playground:**  
+coming soon  
+
 ## Changelog
 
 ### 1.0.0
