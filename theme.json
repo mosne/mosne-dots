@@ -4,7 +4,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#ffeeee",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -32,11 +32,11 @@
 		},
 		"custom": {
 			"body": {
-				"background-color": "#fff"
+				"background-color": "#ffeeee"
 			},
 			"cursor": {
 				"background-color": "#000",
-				"background-color-active": "#fff"
+				"background-color-active": "#ffeeee"
 			}
 		},
 		"layout": {
@@ -355,10 +355,6 @@
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
-
-			"core/post-comments-form": {
-				"css": "& .comment-form textarea{color:var(--wp--preset--color--contrast);border: 2px solid var(--wp--preset--color--contrast); background: transparent;}"
-			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -391,6 +387,9 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
+			},
+			"core/post-comments-form": {
+				"css": "& .comment-form textarea {color:var(--wp--preset--color--contrast);border: 2px solid var(--wp--preset--color--contrast); background: transparent;}& .comment-form input:not([type=submit]) {color:var(--wp--preset--color--contrast);border: 2px solid var(--wp--preset--color--contrast) !important; background: transparent;accent-color: var(--wp--preset--color--contrast);}"
 			},
 			"core/post-content": {
 				"elements": {

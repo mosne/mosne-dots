@@ -2,7 +2,7 @@
 	"settings": {
 		"custom": {
 			"body": {
-				"background-color": "#fff"
+				"background-color": "#ffdddd"
 			},
 			"cursor": {
 				"background-color": "#F24346",
@@ -12,7 +12,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#ffeeee",
 					"name": "Base",
 					"slug": "base"
 				},

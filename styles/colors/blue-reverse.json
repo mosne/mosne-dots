@@ -17,7 +17,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#fff",
+					"color": "#ffdddd",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -27,7 +27,7 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#ffcccc",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
