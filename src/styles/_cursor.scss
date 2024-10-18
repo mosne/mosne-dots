@@ -19,7 +19,6 @@
     opacity: 0;
     transition: opacity .4s ease;
     will-change: transform;
-    transform: translate3d(var(--cursor-x, 0), var(--cursor-y, 0), 0);
 
     .custom-cursor-initialized & {
         display: block;
