@@ -9,26 +9,23 @@ class Cursor {
    * @param {Object} options - The options for the Cursor instance.
    */
   constructor(options) {
-    const self = this
-    const onMouseMove = function () {
-      document.removeEventListener('mousemove', onMouseMove)
+    const onMouseMove = () => {
       document.documentElement.classList.add('custom-cursor-initialized')
-      self.initialize()
+      this.initialize()
     }
-    const onTouchStart = function () {
+    const onTouchStart = () => {
       document.removeEventListener('mousemove', onMouseMove)
-      document.removeEventListener('mousemove', onTouchStart)
     }
 
     this._settings = Object.assign({}, Cursor.defaults, options)
     this._isInitialized = false
 
-    document.addEventListener('mousemove', onMouseMove)
+    document.addEventListener('mousemove', onMouseMove, {once: true})
+    document.addEventListener('touchstart', onTouchStart, {once: true})
   }
 
   /**
    * Initializes the Cursor instance.
-   *
    * @returns {Cursor} The Cursor instance.
    */
   initialize() {
@@ -59,7 +56,6 @@ class Cursor {
 
   /**
    * Returns whether the cursor is initialized or not.
-   *
    * @returns {boolean} Whether the cursor is initialized or not.
    */
   isInitialized() {
@@ -71,28 +67,20 @@ class Cursor {
    * @returns {Cursor} The Cursor instance.
    */
   startAnimation() {
-    let lastX = 0
-    let lastY = 0
-    let self = this
-
-    /**
-     * Animates the cursor using requestAnimationFrame.
-     */
-    function animate() {
-      self._raf = window.requestAnimationFrame(loop)
+    const last = {
+      x: 0,
+      y: 0,
     }
+    const animate = () => {
+      const x = this._mouse.x + (last.x - this._mouse.x) * .85
+      const y = this._mouse.y + (last.y - this._mouse.y) * .85
 
-    /**
-     * Animates the cursor and updates its position on the screen.
-     */
-    function loop() {
-      animate()
-      let x = self._mouse.x + (lastX - self._mouse.x) * 0.8
-      let y = self._mouse.y + (lastY - self._mouse.y) * 0.8
-      self._cursor.style.setProperty('--cursor-x', x + 'px')
-      self._cursor.style.setProperty('--cursor-y', y + 'px')
-      lastX = x
-      lastY = y
+      this._cursor.style.transform = `translate(${x}px, ${y}px)`
+
+      last.x = x
+      last.y = y
+
+      this._raf = window.requestAnimationFrame(animate)
     }
 
     if (this._isInitialized) {
@@ -114,6 +102,7 @@ class Cursor {
   /**
    * Initializes the triggers for the cursor.
    * @param {HTMLElement} context - The context in which to search for triggers.
+   * @returns {Cursor} The Cursor instance.
    */
   initTriggers(context) {
     if (this._isInitialized) {
@@ -123,6 +112,7 @@ class Cursor {
         triggers[i].addEventListener('mouseleave', this._onMouseLeaveHandler)
       }
     }
+    return this
   }
 
   /**
@@ -138,7 +128,6 @@ class Cursor {
 
   /**
    * Sets the cursor to its default state by removing the active class.
-   *
    * @returns {Cursor} The Cursor instance.
    */
   setCursorDefault() {
@@ -150,7 +139,6 @@ class Cursor {
 
   /**
    * Returns the cursor.
-   *
    * @returns {Cursor} The cursor object.
    */
   getCursor() {
@@ -166,10 +154,6 @@ Cursor.defaults = {
   triggers: 'a, button, input[type="submit"], input[type="button"], input[type="reset"',
   activeClass: 'custom-cursor-active',
 }
-
-// ----
-// private
-// ----
 
 // ----
 // utils
@@ -195,8 +179,8 @@ function onMouseMove(e) {
   this._mouse.x = e.clientX
   this._mouse.y = e.clientY
 }
+
 // ----
 // init
 // ----
-
 export default new Cursor()
