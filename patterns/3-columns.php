@@ -5,6 +5,7 @@
  * Categories: about
  * Keywords: section
  * Description: A concise section for showcasing key features.
+ * Viewport width: 1200
  */
 ?>
 <!-- wp:columns {"align":"wide"} -->
