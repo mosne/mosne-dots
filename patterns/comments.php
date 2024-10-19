@@ -43,6 +43,6 @@
 <!-- wp:comments-pagination-next /-->
 <!-- /wp:comments-pagination -->
 
-<!-- wp:post-comments-form /--></div>
+<!-- wp:post-comments-form {"fontSize":"medium"} /--></div>
 <!-- /wp:comments --></div>
 <!-- /wp:group -->
