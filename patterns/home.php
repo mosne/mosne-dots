@@ -58,9 +58,9 @@
 <!-- /wp:query-pagination --></div>
 <!-- /wp:query -->
 
-<!-- wp:paragraph -->
-<p><?php esc_html_e('/', 'mosne-dots');?></p>
-<!-- /wp:paragraph -->
+<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:columns {"metadata":{"categories":["about"],"patternName":"mosne-dots/3-columns","name":"3 Columns"},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
