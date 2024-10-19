@@ -2,6 +2,23 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"customDuotone": true,
+			"defaultPalette": false,
+			"defaultDuotone": false,
+			"customGradient": true,
+			"defaultGradients": false,
+			"duotone": [
+				{
+					"colors": ["#000000", "#ffeeee"],
+					"slug": "duotone-1",
+					"name": "Base and Contrast"
+				},
+				{
+					"colors": ["#ffeeee", "#000000"],
+					"slug": "duotone-2",
+					"name": "Contrast and Base"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffeeee",

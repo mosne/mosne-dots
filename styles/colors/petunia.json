@@ -10,6 +10,18 @@
 			}
 		},
 		"color": {
+			"duotone": [
+				{
+					"colors": ["#380956", "#F68A2D"],
+					"slug": "duotone-1",
+					"name": "Base and Contrast"
+				},
+				{
+					"colors": ["#F68A2D", "#380956"],
+					"slug": "duotone-2",
+					"name": "Contrast and Base"
+				}
+			],
 			"palette": [
 				{
 					"color": "#380956",
