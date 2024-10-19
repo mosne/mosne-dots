@@ -20,7 +20,7 @@
 coming soon  
 
 **WordPress Playground:**  
-coming soon  
+[https://playground.wordpress.net](https://playground.wordpress.net/#{%22preferredVersions%22:{%22php%22:%227.4%22,%22wp%22:%22latest%22},%22steps%22:[{%22step%22:%22login%22,%22username%22:%22admin%22,%22password%22:%22password%22},{%22step%22:%22defineWpConfigConsts%22,%22consts%22:{%22WP_DEBUG%22:true}},{%22step%22:%22importFile%22,%22file%22:{%22resource%22:%22url%22,%22url%22:%22https:\/\/raw.githubusercontent.com\/WordPress\/theme-test-data\/master\/themeunittestdata.wordpress.xml%22,%22caption%22:%22Downloading%20theme%20testing%20content%22},%22progress%22:{%22caption%22:%22Installing%20theme%20testing%20content%22}},{%22step%22:%22installPlugin%22,%22pluginZipFile%22:{%22resource%22:%22wordpress.org\/plugins%22,%22slug%22:%22theme-check%22},%22options%22:{%22activate%22:true}},{%22step%22:%22installTheme%22,%22themeZipFile%22:{%22resource%22:%22url%22,%22url%22:%22https:\/\/downloads.wordpress.org\/theme\/mosne-dots.1.0.0.zip?nostats=1%22,%22caption%22:%22Downloading%20the%20theme%22}}]})
 
 ## Changelog
 
