@@ -41,7 +41,7 @@
 <div style="height:24px" aria-hidden="true" class="wp-block-spacer is-style-big-dot"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:post-date {"textAlign":"left","style":{"typography":{"textTransform":"uppercase","letterSpacing":"2%"}}} /--></div>
+<!-- wp:post-date {"textAlign":"left","style":{"typography":{"textTransform":"uppercase","letterSpacing":"2px"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 

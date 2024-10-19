@@ -378,6 +378,17 @@
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
+			"core/cover": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--duotone-1)"
+				}
+			},
+			"core/image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--duotone-1)"
+				},
+				"shadow": "var(--wp--preset--shadow--crisp)"
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -445,6 +456,12 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
+			},
+			"core/post-featured-image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--duotone-1)"
+				},
+				"shadow": "var(--wp--preset--shadow--crisp)"
 			},
 			"core/post-terms": {
 				"typography": {

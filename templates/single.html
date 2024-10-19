@@ -1,14 +1,24 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:spacer {"height":"148px","className":"is-style-big-dot"} -->
-<div style="height:148px" aria-hidden="true" class="wp-block-spacer is-style-big-dot"></div>
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"}}}} -->
+<main class="wp-block-group" style="margin-top:0"><!-- wp:group {"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:spacer {"height":"0px","className":"is-style-big-dot","style":{"layout":{"flexSize":"148px","selfStretch":"fixed"}}} -->
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer is-style-big-dot"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:post-date {"textAlign":"left","style":{"typography":{"textTransform":"uppercase","letterSpacing":"2%"}}} /-->
+<!-- wp:post-date {"textAlign":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"2px"}}} /-->
 
-<!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /--></div>
+<!-- wp:post-title {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
+
+<!-- wp:spacer {"height":"0px","className":"is-style-big-dot","style":{"layout":{"flexSize":"48px","selfStretch":"fixed"}}} -->
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer is-style-big-dot"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:post-featured-image {"style":{"color":{"duotone":"var:preset|duotone|duotone-1"}}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
