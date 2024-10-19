@@ -63,8 +63,7 @@ Easily add a dark mode to your site
 
 == Images ==
 
-assets/images/cat.webp
+"A white and grey cat with green eyes peering through green leaves of a houseplant" by Mosne / Paolo Tesei, CC0 1.0
 https://wordpress.org/photos/photo/2186606b72/
-A white and grey cat with green eyes peering through green leaves of a houseplant.by Mosne / Paolo Tesei/ CC0 1.0
 
 
