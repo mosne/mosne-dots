@@ -8,7 +8,7 @@
  * Viewport width: 1200
  */
 
-$image = get_template_directory_uri() . '/assets/images/cat.jpg';
+$image = get_template_directory_uri() . '/assets/images/cat.webp';
 ?>
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|70"},"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"verticalAlignment":"top"} -->
