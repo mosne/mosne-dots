@@ -13,7 +13,18 @@
 		"start": "wp-scripts start"
 	},
 	"files": [
-		"[^.]*"
+		"[^.]*",
+		"!.idea",
+		"!.vscode",
+		"!.git",
+		"!.yarn",
+		"!yarn.lock",
+		"!readme.md",
+		"!src",
+		"!*.zip",
+		"!*.sql",
+		"!*.gz"
+
 	],
 	"author": "mosne",
 	"license": "GPL-2.0",
