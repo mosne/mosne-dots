@@ -5,17 +5,18 @@
  * Categories: text
  * Keywords: glossary, sticky
  * Description: A section ideal for word definitions or contact information listings.
+ * Viewport width: 650
  */
 ?>
-<!-- wp:group {"name":"Glossary"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
 	<h2 class="wp-block-heading"><strong>Glossary</strong></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
-			<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size"><strong>A</strong></h3>
+		<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"100px"}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
+			<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size" style="border-radius:100px"><strong>A</strong></h3>
 			<!-- /wp:heading --></div>
 		<!-- /wp:group --></div>
 	<!-- /wp:group -->
@@ -27,8 +28,8 @@
 	<!-- /wp:details -->
 
 	<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
-		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size"><strong>B</strong></h3>
+	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"100px"}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
+		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size" style="border-radius:100px"><strong>B</strong></h3>
 		<!-- /wp:heading --></div>
 	<!-- /wp:group -->
 
@@ -39,8 +40,8 @@
 	<!-- /wp:details -->
 
 	<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
-		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size"><strong>C</strong></h3>
+	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"100px"}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
+		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size" style="border-radius:100px"><strong>C</strong></h3>
 		<!-- /wp:heading --></div>
 	<!-- /wp:group -->
 
@@ -51,8 +52,8 @@
 	<!-- /wp:details -->
 
 	<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
-		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size"><strong>D</strong></h3>
+	<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"100px"}},"backgroundColor":"contrast","textColor":"base","fontSize":"normal"} -->
+		<h3 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color has-normal-font-size" style="border-radius:100px"><strong>D</strong></h3>
 		<!-- /wp:heading --></div>
 	<!-- /wp:group -->
 
