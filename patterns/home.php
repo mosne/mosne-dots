@@ -58,11 +58,11 @@
 <!-- /wp:query-pagination --></div>
 <!-- /wp:query -->
 
-<!-- wp:spacer {"height":"48px"} -->
-<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:paragraph -->
+<p><?php esc_html_e('/', 'mosne-dots');?></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:columns {"align":"wide"} -->
+<!-- wp:columns {"metadata":{"categories":["about"],"patternName":"mosne-dots/3-columns","name":"3 Columns"},"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('About', 'mosne-dots');?></h2>
