@@ -23,8 +23,8 @@
 		"!src",
 		"!*.zip",
 		"!*.sql",
-		"!*.gz"
-
+		"!*.gz",
+		"!package.json"
 	],
 	"author": "mosne",
 	"license": "GPL-2.0",
