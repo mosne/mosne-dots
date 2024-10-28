@@ -2,7 +2,7 @@
 
 Contributors: mosne
 Requires at least: 6.0
-Tested up to: 6.7-beta3
+Tested up to: 6.7-RC1
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,13 +14,18 @@ Block Theme: minimal and typographical. It's light and fast with a nice cursor a
 
 == Changelog ==
 
+= 1.0.1 =
+* Add function prefixing
+* Update license
+* Fix link colors
+
 = 1.0.0 =
 * Initial release
 
 
 == Copyright ==
 
-Dots WordPress Theme, (C) 2024 mosne
+Dots WordPress Theme, (C) 2024 Mosne / Paolo Tesei
 Dots is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -63,7 +68,8 @@ Easily add a dark mode to your site
 
 == Images ==
 
-"A white and grey cat with green eyes peering through green leaves of a houseplant" by Mosne / Paolo Tesei, CC0 1.0
-https://wordpress.org/photos/photo/2186606b72/
+"A white and grey cat with green eyes peering through green leaves of a houseplant" by Mosne / Paolo Tesei
+Source: https://wordpress.org/photos/photo/2186606b72/
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 
 

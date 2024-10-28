@@ -25,6 +25,11 @@ coming soon
 
 ## Changelog
 
+### 1.0.1
+- Add function prefixing
+- Update license
+- Fix link colors
+
 ### 1.0.0
 - Initial release
 
