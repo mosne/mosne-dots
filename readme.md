@@ -24,6 +24,10 @@ coming soon
 
 ## Changelog
 
+### 1.0.3
+
+- Update Copyright
+
 ### 1.0.2
 
 - Add contributors
