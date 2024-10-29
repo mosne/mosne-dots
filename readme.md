@@ -4,8 +4,8 @@
 
 **Contributors:** mosne, nlangle, firestar300
 **Requires at least:** 6.0
-**Tested up to:** 6.7-beta3
-**Requires PHP:** 5.7
+**Tested up to:** 6.6
+**Requires PHP:** 7.4
 **License:** GPLv2 or later
 **License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
 
@@ -24,7 +24,11 @@ coming soon
 
 ## Changelog
 
-### 1.0.3
+### 1.0.4
+
+- Update Requirements
+
+- ### 1.0.3
 
 - Update Copyright
 
