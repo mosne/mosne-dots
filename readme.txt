@@ -1,6 +1,6 @@
 == Mosne Dots ==
 
-Contributors: mosne
+Contributors: mosne, nlangle, firestar300
 Requires at least: 6.0
 Tested up to: 6.7-RC1
 Requires PHP: 5.7
@@ -14,6 +14,9 @@ Block Theme: minimal and typographical. It's light and fast with a nice cursor a
 
 == Changelog ==
 
+= 1.0.2 =
+* Add Contributors
+
 = 1.0.1 =
 * Add function prefixing
 * Update license
@@ -25,8 +28,8 @@ Block Theme: minimal and typographical. It's light and fast with a nice cursor a
 
 == Copyright ==
 
-Dots WordPress Theme, (C) 2024 Mosne / Paolo Tesei
-Dots is distributed under the terms of the GNU GPL.
+Mosne Dots WordPress Theme, Copyright 2024 Mosne / Paolo Tesei
+Mosne Dots is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
