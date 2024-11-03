@@ -24,6 +24,11 @@ coming soon
 
 ## Changelog
 
+### 1.0.5
+
+- Fix target blank link style in contens
+- Add contributors
+
 ### 1.0.4
 
 - Update Requirements

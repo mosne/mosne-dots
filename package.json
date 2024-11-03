@@ -1,6 +1,6 @@
 {
 	"name": "mosne-dots",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Stack builder",
 	"main": "build/index.js",
 	"scripts": {
@@ -24,7 +24,8 @@
 		"!*.zip",
 		"!*.sql",
 		"!*.gz",
-		"!package.json"
+		"!package.json",
+		"src"
 	],
 	"author": "mosne",
 	"license": "GPL-2.0",

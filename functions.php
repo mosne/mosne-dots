@@ -15,7 +15,7 @@ if ( function_exists( 'register_block_style' ) ) {
             'name'         => 'big-dot',
             'label'        => __( 'Big Dot', 'mosne-dots' ),
             'is_default'   => false,
-            'inline_style' => '.wp-block-spacer.is-style-big-dot { 
+            'inline_style' => '.wp-block-spacer.is-style-big-dot {
                 position: relative;
                 // make it the spacer always squared
                 width: 100%;
