@@ -14,6 +14,9 @@ Block Theme: minimal and typographical. It's light and fast with a nice cursor a
 
 == Changelog ==
 
+= 1.0.6 =
+* Fix colors overrides
+
 = 1.0.5 =
 * Fix target blank link style in contens
 * add Contributors

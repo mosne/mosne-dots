@@ -24,6 +24,10 @@ coming soon
 
 ## Changelog
 
+### 1.0.6
+
+- Fix color overrides
+
 ### 1.0.5
 
 - Fix target blank link style in contens

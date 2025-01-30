@@ -2,11 +2,11 @@
 	"settings": {
 		"custom": {
 			"body": {
-				"background-color": "#000000"
+				"background-color": "var:preset|color|base"
 			},
 			"cursor": {
-				"background-color": "#ffffff",
-				"background-color-active": "#ffffff"
+				"background-color": "var:preset|color|contrast",
+				"background-color-active": "var:preset|color|contrast"
 			}
 		},
 		"color": {

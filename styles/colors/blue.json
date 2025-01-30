@@ -2,11 +2,11 @@
 	"settings": {
 		"custom": {
 			"body": {
-				"background-color": "#ffdddd"
+				"background-color": "var:preset|color|base"
 			},
 			"cursor": {
-				"background-color": "#4C43F2",
-				"background-color-active": "#0975d2"
+				"background-color": "var:preset|color|contrast",
+				"background-color-active": "var:preset|color|tertiary"
 			}
 		},
 		"color": {
@@ -44,7 +44,7 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#F68A2D",
+					"color": "#0975d2",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
